@@ -1,7 +1,10 @@
-
-import Link from 'next/link';
-import { ProjectItemProps } from '@/types/projectItem';
 import Image from 'next/image';
+import Link from 'next/link';
+import { Project } from '@/types/project';
+
+interface ProjectItemProps {
+  project: Project;
+}
 
 export default async function ProjectItem({ project }: ProjectItemProps) {
 

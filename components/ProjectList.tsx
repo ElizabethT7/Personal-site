@@ -1,5 +1,9 @@
-import { ProjectListProps } from '@/types/projectList';
 import ProjectItem from './ProjectItem';
+import { Project } from '@/types/project';
+
+interface ProjectListProps {
+  projects: Project[];
+}
 
 export default async function ProjectList({ projects }: ProjectListProps) {
   return (
