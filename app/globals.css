@@ -17,6 +17,10 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +28,18 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.navigation {
+  color: #ffffffde;
+  padding-left: 30px;
+}
+
+.navigation:hover {
+  color: #c37113;
+}
+
+.navigation_active {
+  color: #6c5689de;
+  padding-left: 30px;
 }
