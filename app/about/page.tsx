@@ -4,4 +4,4 @@ export default function About() {
         About page
       </div>
     )
-  }
+}
